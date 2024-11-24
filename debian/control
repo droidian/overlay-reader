@@ -7,7 +7,7 @@ Build-Depends: cmake,
                libboost-filesystem-dev,
                libzip-dev,
                libminui-dev,
-Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Maintainer: Droidian Project <info@droidian.org>
 Standards-Version: 4.5.0
 Homepage: https://github.com/droidian/overlay-reader
 
