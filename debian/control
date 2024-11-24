@@ -34,6 +34,7 @@ Description: Library to read android runtime overlays.
 Package: getoverlay
 Section: admin
 Architecture: any
+Pre-Depends: runonce
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          liboverlay-reader,
@@ -43,6 +44,7 @@ Description: Tools to read android runtime overlays.
 Package: getcutout
 Section: admin
 Architecture: any
+Pre-Depends: runonce
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          getoverlay,

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+TARGET="/var/lib/droidian/phosh-notch/halium.json"
+
+[ -e "${TARGET}" ] && exit 0
+
+if [ -x /usr/bin/plymouth ] && plymouth --ping; then
+	plymouth --wait --quit
+fi
+
+# Try to get display resolution
+/usr/bin/minui-getres
+
+# Finally create the notch json
+/usr/bin/getcutout -o ${TARGET}
+
+# Do not fail
+exit 0
