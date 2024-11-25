@@ -3,4 +3,3 @@ usr/bin/minui-getres
 etc/systemd/system/phosh.service.d/50-notch.conf
 runonce/script/getcutout /usr/share/runonce/scripts/
 runonce/target/getcutout /usr/share/runonce/targets/
-runonce/10-ordering.conf /usr/lib/systemd/system/runonce@getcutout.service.d/

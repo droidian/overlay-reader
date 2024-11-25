@@ -1,3 +1,2 @@
 /usr/share/runonce/scripts/
 /usr/share/runonce/targets/
-/usr/lib/systemd/system/runonce@getcutout.service.d/
