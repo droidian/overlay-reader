@@ -3,6 +3,7 @@ Section: libs
 Priority: optional
 Build-Depends: cmake,
                debhelper,
+               debhelper-compat (= 13),
                pkg-config,
                libboost-filesystem-dev,
                libzip-dev,
